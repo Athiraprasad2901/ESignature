@@ -15,7 +15,7 @@ const SignatureComponent = () => {
   const saveSignature = () => {
     if (signatureRef.current) {
       const dataURL = signatureRef.current.toDataURL();
-      console.log(dataURL); 
+      
     }
   };
 
@@ -43,7 +43,7 @@ const SignatureComponent = () => {
   );
 };
 
-// Styling using a JavaScript object
+
 const styles = {
   container: {
     display: "flex",
